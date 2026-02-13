@@ -1,0 +1,1922 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2008,
+            "display_year": "2016 - MABA",
+            "summary": "\n<p>Bob Graham, the man with the notebook, stepped into the Oval Office with the hope that methodical and managerial leadership could substitute a narrow vision and a lack of charisma. However, every day confronts the president with the weight of an office that he never truly asked for. He stepped into a house full of policies he meticulously tracks but consistently struggles to shape into meaning.</p>\n\n<p>Graham must face the messy and unpredictable demands of being president and leave a mark before the end of his presidency. If he fails to accomplish that, he'll be remembered as the calm before the storm.</p>",
+            "image_url": "https://files.catbox.moe/byei53.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2008,
+        "is_premium": 0,
+        "display_year": "2016 - MABA"
+    }
+]
+
+campaignTrail_temp.credits = "Boris Johnson, himself."
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 16,
+        "fields": {
+            "first_name": "Boris",
+            "last_name": "Johnson",
+            "election": 20,
+            "party": "Republican",
+            "state": "Journalist",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'>Despite the grandfatherly appearance and his obsession with notebooks, Bob Graham is a man who is trying to convince himself that details mean vision, that process equals leadership, and that being correct about Iraq makes up for all the rest in which he was wrong. One of the things that best characterizes his victory is not that he was the most wanted candidate, but that he was the least like Dubya, a distinction that has turned out to be less charming in practice than in theory. The entirety of Graham's political identification with the character of being the sensible choice, the safe leader, the one who checks the facts while everybody else improvises, is thrown into question.</p>\n\n\n\nBut the four-year term in the Oval Office has exposed the emptiness of his political ideals and the divide between his know-how and his lack of purpose, except for the vague idea that someone must do it. Every morning, he lives the experience of being an impostor, with a White House that he got by mistake and full of notebooks with very detailed comments about a government that he never really wanted, and he is still trying to figure out how to make it work.</p>\n\n\n\nHe needs to convince himself that the qualities and not the charisma are what count, that the substance will triumph over the style, and that the Americans will eventually be grateful for having a president who sees the office as a very important middle management position. He is not allowed to be just a brief interlude between the disasters of the Republican Party, albeit that is exactly what he has become.</p></div>",
+            "color_hex": "#c8343e",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/fn4g5o.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 17,
+        "fields": {
+            "first_name": "Donald",
+            "last_name": "Trump",
+            "election": 20,
+            "party": "Republican",
+            "state": "Presenter",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#c8343e",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/7upour.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'>Chris Dodd is as far from President Graham as light is from darkness, being the complete opposites of similar things, silver-haired and soft-speaking, where Graham is shabbily dressed and clumsily spoken, a man of marble corridors and mahogany-lined offices who is seamlessly adjusting to Washington like a deep-sea fish to the rivers of his home. He can't stand the show-off character of contemporary politics, the kind of things that Graham would say, truly, like handshakes and smiles.</p>\n\n\n\nDodd pictures the most pleasing moments in his life not calling on towns or visiting factories, which are the images he would associate with his very well-meaning chief; instead, he would think about the moments of complete quiet when laws are formed behind closed doors, when the phone is rung and favors called in - that is when the real work of government is going on far away from cameras and notebooks.</p>\n\n\n\nHe is not going to be very happy with Graham's slow-going style and will, thereby, be used to seeing a lot of IOUs that he has been accumulating over the years turn into nothing, while relationships also become ghosts of the past. Four years back, Dodd took up the offer by Graham to be his vice president on the condition that he would have the power to influence domestic policy and use his connections in the Senate to facilitate a transformative Democratic agenda. As a result, he has been able to achieve a few victories quietly in the areas of banking regulation and healthcare reform.</p>\n\n\n\nNevertheless, Graham's obsession with process has almost made politics work impossible. The lions of the Senate no longer call him with the same eagerness as before. The donors and the lobbyists in his network that he had so carefully nurtured are getting impatient with Graham being at their mercy and squandering their investments. If nothing happens radically to change the course of events, Dodd will be forced to decide whether he wants to disappear into oblivion in Connecticut or make the move that he has been deliberating since election night in 2004, the one that would ensure that the right Democrat would eventually take up the Oval Office post.</p></div>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "Republicans",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#c56d6d",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "Greens",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#87b884",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Mr",
+            "last_name": "Libertarians",
+            "election": 20,
+            "party": "Turbo Team",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#f8fea9",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 140564,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 17
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            16,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            16,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#ffffff",
+    "windowColor": "#ffffff",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://files.catbox.moe/917ssi.png",
+    "backgroundImageUrl": "https://files.catbox.moe/289z3i.png",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "THE BLOO TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE BLOO TRAIL</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ffffff";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://files.catbox.moe/917ssi.png";
+
+document.body.background = "https://files.catbox.moe/289z3i.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+e.HomeStateText = "Occupation:";
+
+corrr=`<img src='https://files.catbox.moe/xdq9lw.png' width='100%'/><span id="after_button"></span>`;
+if (gameWindow) {
+    gameWindow.style.border = "3px solid #595959";
+    gameWindow.style.borderRadius = "5px";
+}
+
+const style = document.createElement("style");
+
+style.type = "text/css";
+
+// Add your CSS rules
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #e80000;
+  }
+  button {
+  background: linear-gradient(#ffffff, #e6e6e6); /* light-gray top-to-bottom */
+  border: 1px solid #a2a2a2;                     /* thin neutral border */
+  color: #000;
+  font: 13px Arial, Helvetica, sans-serif;
+  padding: 4px 10px;
+  border-radius: 2px;                             /* slight corner rounding */
+  cursor: pointer;
+  }
+
+button:hover {
+  background: linear-gradient(#f8f8f8, #dcdcdc);   /* a touch darker on hover */
+  border-color: #999;
+}
+
+button:active {
+  background: linear-gradient(#dcdcdc, #f8f8f8);   /* inverted press effect */
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+}
+  select {
+    background-color: #ffffff
+;
+  }
+
+   #election_description_window, .person_description_window, .description_window_small {
+   border: 3px double #000000;
+   border-radius: .5em 0;
+  }
+`;
+
+// Append to <head>
+document.head.appendChild(style);
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+// The banner system from 2016ALOT
+(function () {
+    const gameWindow = document.getElementById("game_window");
+    if (!gameWindow) return;
+
+    // configuration object
+    const CONFIG = {
+        bannerHeight: 60,
+        fadeTransition: 250,
+        preloadCount: 4,
+        enablePreloading: true,
+        enableLocalStorage: true,
+        hoverEffect: true,
+        clickCooldown: 150,
+        maxCacheSize: 20,
+        useRequestIdleCallback: true
+    };
+
+    // banner list
+    const banners = [{
+        url: "https://files.catbox.moe/iv51gk.png",
+        alt: "NBA banner",
+        weight: 1
+    },
+    ];
+
+    // caching system
+    class BannerCache {
+        constructor() {
+            this.imageCache = new Map();
+            this.loadedUrls = new Set();
+            this.storageKey = 'vintageBannerCache_v2';
+            this.maxCacheAge = 7 * 24 * 60 * 60 * 1000; // 7 days
+            this.cacheAccessOrder = [];
+
+            if (CONFIG.enableLocalStorage) {
+                this.loadFromStorage();
+            }
+        }
+
+        saveToStorage() {
+            if (!CONFIG.enableLocalStorage) return;
+
+            try {
+                const cacheData = {
+                    timestamp: Date.now(),
+                    urls: Array.from(this.loadedUrls)
+                };
+                localStorage.setItem(this.storageKey, JSON.stringify(cacheData));
+            } catch (e) {
+                // silent fail
+            }
+        }
+
+        loadFromStorage() {
+            try {
+                const cached = localStorage.getItem(this.storageKey);
+                if (!cached) return;
+
+                const data = JSON.parse(cached);
+                const age = Date.now() - data.timestamp;
+
+                if (age < this.maxCacheAge) {
+                    this.loadedUrls = new Set(data.urls);
+                } else {
+                    localStorage.removeItem(this.storageKey);
+                }
+            } catch (e) {
+                // silent fail
+            }
+        }
+
+        preloadImage(url) {
+            if (this.imageCache.has(url)) {
+                this.updateCacheOrder(url);
+                return Promise.resolve(this.imageCache.get(url));
+            }
+
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                let timeoutId;
+
+                const cleanup = () => {
+                    clearTimeout(timeoutId);
+                    img.onload = img.onerror = null;
+                };
+
+                timeoutId = setTimeout(() => {
+                    cleanup();
+                    reject(new Error(`Timeout: ${url}`));
+                }, 8000);
+
+                img.onload = () => {
+                    cleanup();
+                    this.addToCache(url, img);
+                    resolve(img);
+                };
+
+                img.onerror = () => {
+                    cleanup();
+                    reject(new Error(`Failed: ${url}`));
+                };
+
+                // set image loading priority to low
+                img.fetchPriority = "low";
+                img.src = url;
+            });
+        }
+
+        addToCache(url, img) {
+            // LRU cache eviction policy
+            if (this.imageCache.size >= CONFIG.maxCacheSize && !this.imageCache.has(url)) {
+                const lruUrl = this.cacheAccessOrder.shift();
+                this.imageCache.delete(lruUrl);
+            }
+
+            this.imageCache.set(url, img);
+            this.updateCacheOrder(url);
+            this.loadedUrls.add(url);
+            this.saveToStorage();
+        }
+
+        updateCacheOrder(url) {
+            // remove url if it exists in the order array
+            const index = this.cacheAccessOrder.indexOf(url);
+            if (index > -1) {
+                this.cacheAccessOrder.splice(index, 1);
+            }
+            // add to the end (most recently used)
+            this.cacheAccessOrder.push(url);
+        }
+
+        preloadBatch(urls) {
+            if (!CONFIG.enablePreloading) return Promise.resolve();
+
+            if (CONFIG.useRequestIdleCallback && window.requestIdleCallback) {
+                return new Promise(resolve => {
+                    window.requestIdleCallback(() => {
+                        const promises = urls.map(url =>
+                            this.preloadImage(url).catch(() => null)
+                        );
+                        Promise.allSettled(promises).then(resolve);
+                    }, { timeout: 2000 });
+                });
+            } else {
+                const promises = urls.map(url =>
+                    this.preloadImage(url).catch(() => null)
+                );
+                return Promise.allSettled(promises);
+            }
+        }
+
+        getCachedImage(url) {
+            const img = this.imageCache.get(url);
+            if (img) {
+                this.updateCacheOrder(url);
+            }
+            return img || null;
+        }
+    }
+
+    // weighted random selection with memoization
+    const bannerSelector = (() => {
+        let weightSum = null;
+
+        const getTotalWeight = () => {
+            if (weightSum === null) {
+                weightSum = banners.reduce((sum, banner) => sum + banner.weight, 0);
+            }
+            return weightSum;
+        };
+
+        return {
+            getRandomBanner(excludeRecent = []) {
+                const availableBanners = banners.filter(b => !excludeRecent.includes(b.url));
+
+                if (availableBanners.length === 0) {
+                    const currentUrl = excludeRecent[excludeRecent.length - 1];
+                    return banners.find(b => b.url !== currentUrl) || banners[0];
+                }
+
+                const totalWeight = availableBanners.reduce((sum, banner) => sum + banner.weight, 0);
+                let random = Math.random() * totalWeight;
+
+                for (const banner of availableBanners) {
+                    random -= banner.weight;
+                    if (random <= 0) return banner;
+                }
+
+                return availableBanners[0];
+            },
+
+            // precompute weighted selection table
+            initializeSelectionTable() {
+                getTotalWeight();
+            }
+        };
+    })();
+
+    // banner system
+    class ClickableBannerSystem {
+        constructor() {
+            this.createElements();
+
+            this.cache = new BannerCache();
+            this.currentBanner = null;
+            this.recentBanners = [];
+            this.isTransitioning = false;
+            this.lastClickTime = 0;
+            this.rafId = null;
+
+            this.init();
+        }
+
+        init() {
+            this.setupEventListeners();
+            bannerSelector.initializeSelectionTable();
+
+            Promise.resolve()
+                .then(() => this.preloadInitialBanners())
+                .then(() => this.displayRandomBanner())
+                .catch(() => {
+                    // fallback if preloading fails
+                    this.displayRandomBanner();
+                });
+
+            // cleanup on page unload
+            window.addEventListener('beforeunload', () => {
+                this.destroy();
+            });
+        }
+
+        createElements() {
+            this.container = document.createElement("div");
+            this.imageElement = document.createElement("img");
+            this.clickIndicator = document.createElement("div");
+
+            this.container.id = "bottomBar";
+            this.container.setAttribute('tabindex', '0');
+            this.container.setAttribute('role', 'button');
+            this.container.setAttribute('aria-label', 'Click to change banner');
+
+            this.container.style.cssText = `
+                height: ${CONFIG.bannerHeight}px;
+                font-size: 12px;
+                border-style: none;
+                border-width: 5px;
+                background: transparent;
+                padding: 0;
+                margin: 1em .3em 1em 2em;
+                position: relative;
+                overflow: hidden;
+                cursor: pointer;
+                transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+                user-select: none;
+                border-radius: 3px;
+            `;
+
+            this.imageElement.style.cssText = `
+                width: 100%; 
+                height: 100%; 
+                object-fit: contain; 
+                display: block;
+                transition: opacity ${CONFIG.fadeTransition}ms ease-in-out;
+                pointer-events: none;
+            `;
+
+            this.clickIndicator.style.cssText = `
+                position: absolute;
+                top: 2px;
+                right: 4px;
+                width: 16px;
+                height: 16px;
+                background: rgba(255, 255, 255, 0.8);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10px;
+                font-weight: bold;
+                color: #333;
+                opacity: 0;
+                transition: opacity 200ms ease-in-out, transform 150ms ease-in-out;
+                pointer-events: none;
+                z-index: 10;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            `;
+            this.clickIndicator.textContent = "↻";
+
+            // append elements
+            this.container.appendChild(this.imageElement);
+            this.container.appendChild(this.clickIndicator);
+            gameWindow.insertAdjacentElement("afterend", this.container);
+        }
+
+        setupEventListeners() {
+            this.container.onclick = (e) => {
+                e.preventDefault();
+                const now = Date.now();
+                if (now - this.lastClickTime < CONFIG.clickCooldown || this.isTransitioning) {
+                    return;
+                }
+                this.lastClickTime = now;
+                this.nextBanner();
+            };
+
+            // hover effects
+            if (CONFIG.hoverEffect) {
+                this.container.onmouseenter = () => {
+                    if (this.isTransitioning) return;
+
+                    cancelAnimationFrame(this.rafId);
+                    this.rafId = requestAnimationFrame(() => {
+                        this.container.style.background = 'transparent';
+                        this.container.style.transform = 'scale(1.02)';
+                        this.container.style.boxShadow = '0 2px 8px rgba(0,0,0,0.2)';
+                        this.clickIndicator.style.opacity = '1';
+                    });
+                };
+
+                this.container.onmouseleave = () => {
+                    cancelAnimationFrame(this.rafId);
+                    this.rafId = requestAnimationFrame(() => {
+                        this.container.style.transform = 'scale(1)';
+                        this.container.style.boxShadow = 'none';
+                        this.clickIndicator.style.opacity = '0';
+                    });
+                };
+            }
+
+            // keyboard accessibility
+            this.container.onkeydown = (e) => {
+                if (e.code === 'Space' || e.code === 'Enter') {
+                    e.preventDefault();
+                    this.nextBanner();
+                }
+            };
+        }
+
+        async preloadInitialBanners() {
+            // prioritize preloading based on banner weights
+            const sortedBanners = [...banners]
+                .sort((a, b) => b.weight - a.weight)
+                .slice(0, CONFIG.preloadCount);
+
+            const urlsToPreload = sortedBanners.map(b => b.url);
+            return this.cache.preloadBatch(urlsToPreload);
+        }
+
+        async displayBanner(banner, useTransition = false) {
+            if (this.isTransitioning) return;
+
+            const cachedImg = this.cache.getCachedImage(banner.url);
+
+            if (useTransition && CONFIG.fadeTransition > 0) {
+                this.isTransitioning = true;
+                this.imageElement.style.opacity = '0';
+
+                setTimeout(() => {
+                    requestAnimationFrame(() => {
+                        if (cachedImg) {
+                            this.imageElement.src = cachedImg.src;
+                        } else {
+                            this.imageElement.src = banner.url;
+                        }
+                        this.imageElement.alt = banner.alt;
+
+                        // force reflow to ensure transition works
+                        void this.imageElement.offsetWidth;
+                        this.imageElement.style.opacity = '1';
+                        this.isTransitioning = false;
+                    });
+                }, CONFIG.fadeTransition / 2);
+            } else {
+                requestAnimationFrame(() => {
+                    if (cachedImg) {
+                        this.imageElement.src = cachedImg.src;
+                    } else {
+                        this.imageElement.src = banner.url;
+                    }
+                    this.imageElement.alt = banner.alt;
+                });
+            }
+
+            this.currentBanner = banner;
+
+            // track recent banners
+            this.recentBanners.push(banner.url);
+            if (this.recentBanners.length > 3) {
+                this.recentBanners.shift();
+            }
+
+            // preload next banner if not cached
+            if (!cachedImg) {
+                this.cache.preloadImage(banner.url).catch(() => {
+                    // silent fail
+                });
+            }
+
+            // opportunistically preload next potential banners
+            if (CONFIG.useRequestIdleCallback && window.requestIdleCallback) {
+                window.requestIdleCallback(() => {
+                    const nextBanners = banners
+                        .filter(b => !this.recentBanners.includes(b.url) && !this.cache.imageCache.has(b.url))
+                        .sort((a, b) => b.weight - a.weight)
+                        .slice(0, 2);
+
+                    this.cache.preloadBatch(nextBanners.map(b => b.url));
+                }, { timeout: 5000 });
+            }
+        }
+
+        displayRandomBanner() {
+            const banner = bannerSelector.getRandomBanner(this.recentBanners);
+            this.displayBanner(banner, this.currentBanner !== null);
+        }
+
+        nextBanner() {
+            this.displayRandomBanner();
+
+            requestAnimationFrame(() => {
+                this.clickIndicator.style.transform = 'scale(1.2)';
+
+                setTimeout(() => {
+                    requestAnimationFrame(() => {
+                        this.clickIndicator.style.transform = 'scale(1)';
+                    });
+                }, 150);
+            });
+        }
+
+        destroy() {
+            cancelAnimationFrame(this.rafId);
+
+            if (this.container) {
+                this.container.onclick = null;
+                this.container.onmouseenter = null;
+                this.container.onmouseleave = null;
+                this.container.onkeydown = null;
+
+                if (this.container.parentNode) {
+                    this.container.parentNode.removeChild(this.container);
+                }
+            }
+
+            this.container = null;
+            this.imageElement = null;
+            this.clickIndicator = null;
+        }
+    }
+
+    const bannerSystem = new ClickableBannerSystem();
+
+    window.vintageBannerSystem = {
+        next: () => bannerSystem.nextBanner(),
+        current: () => bannerSystem.currentBanner?.alt || 'Loading...'
+    };
+})();
+
+// The music player!
+// This was initially developed using the one from W. as a basis, which is also why the
+// album covers are not particularly huge. This might change. Still, it's a *lot* different
+// than the one there, but I must give out some attribution here.
+
+(function () {
+    'use strict';
+
+    // The songs.
+    const SONGS_DATA = [
+	{ title: "Mr Blue Sky", artist: "Electric Light Orchestra", coverLink: "https://files.catbox.moe/7546jz.png", videoIds: ["sQiPtneudlo"] },
+	{ title: "Everywhere", artist: "Fleetwood Mac", coverLink: "https://files.catbox.moe/387v2h.png", videoIds: ["wLSUDSNqLgQ"] },
+        { title: "24K Magic", artist: "Bruno Mars", coverLink: "https://files.catbox.moe/49p9oa.png", videoIds: ["LhZ5GXCZtEw"] },
+        { title: "Hotline Bling", artist: "Drake", coverLink: "https://files.catbox.moe/2yui59.png", videoIds: ["LxxnSDmGUc4"] },
+        { title: "Good As Hell", artist: "Lizzo", coverLink: "https://files.catbox.moe/91tdq3.png", videoIds: ["4WmgQekz4RQ"] }
+    ];
+
+    let PLAYLISTS_DATA = [];
+
+    // constants
+    const PLAYER_ELEMENT_ID = "nice-music-player";
+    const PLAYER_MAIN_CONTENT_WRAPPER_ID = "player-main-content-wrapper";
+	const PLAYER_RIGHT_PANEL_ID = "player-right-panel";
+    const PLAYLIST_SELECTOR_CONTAINER_ID = "player-playlist-selector-container";
+    const PLAYLIST_SELECTOR_ID = "player-playlist-selector";
+    const YOUTUBE_PLAYER_DIV_ID = "youtube-player-container";
+    const DISPLAY_BOX_ID = "player-display-box";
+    const COVER_ID = "player-cover";
+    const INFO_CONTAINER_ID = "player-info-container";
+    const SONG_INFO_ID = "player-song-info";
+    const TITLE_LINE_WRAPPER_CLASS = "player-title-line-wrapper";
+    const TITLE_ID = "player-title";
+    const ARTIST_ID = "player-artist";
+    const YOUTUBE_LINK_ID = "player-youtube-link";
+    const CONTROLS_CONTAINER_ID = "player-controls-container";
+    const CONTROLS_ID = "player-controls";
+    const PREV_BUTTON_ID = "player-prev-button";
+    const PLAY_PAUSE_BUTTON_ID = "player-play-pause-button";
+    const NEXT_BUTTON_ID = "player-next-button";
+    const PROGRESS_BAR_CONTAINER_ID = "player-progress-bar-container";
+    const CURRENT_TIME_ID = "player-current-time";
+    const PROGRESS_BAR_ID = "player-progress-bar";
+    const DURATION_ID = "player-duration";
+    const VOLUME_CONTAINER_ID = "player-volume-container";
+    const VOLUME_ICON_ID = "player-volume-icon";
+    const VOLUME_PERCENTAGE_ID = "player-volume-percentage";
+    const VOLUME_SLIDER_ID = "player-volume-slider";
+    const REPEAT_BUTTON_ID = "player-repeat-button";
+    const SHUFFLE_BUTTON_ID = "player-shuffle-button";
+    const PLAYER_CONTROL_BUTTON_CLASS = 'player-control-button';
+    const QUEUE_CONTAINER_ID = "player-queue-container";
+    const QUEUE_TITLE_ID = "player-queue-title";
+    const QUEUE_LIST_ID = "player-queue-list";
+    const PLAYER_QUEUE_ITEM_CLASS = "player-queue-item";
+    const QUEUE_TOGGLE_ICON_ID = "player-queue-toggle-icon";
+
+    // icons
+    const ICON_PLAY = "https://upload.wikimedia.org/wikipedia/commons/9/96/Crystal_Project_Player_play.png";
+    const ICON_PAUSE = "https://upload.wikimedia.org/wikipedia/commons/d/dd/Crystal_Project_Player_pause.png";
+    const ICON_PREV = "https://upload.wikimedia.org/wikipedia/commons/e/ef/Crystal_Project_Player_rew.png";
+    const ICON_NEXT = "https://upload.wikimedia.org/wikipedia/commons/6/66/Crystal_Project_Player-end.png";
+    const ICON_VOLUME = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%23424242'%3E%3Cpath d='M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z'/%3E%3C/svg%3E";
+    const ICON_MUTED = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%23424242'%3E%3Cpath d='M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z'/%3E%3C/svg%3E";
+    const ICON_YOUTUBE = "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg";
+    const ICON_REPEAT_NONE = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%23424242'%3E%3Cpath d='M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z'/%3E%3C/svg%3E";
+    const ICON_REPEAT_ALL = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%233F51B5'%3E%3Cpath d='M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z'/%3E%3C/svg%3E";
+    const ICON_REPEAT_ONE = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='%233F51B5'%3E%3Cpath d='M7 7h10v3l4-4-4-4v3H5v6h2V7zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2v4z'/%3E%3Cpath d='M13 15V9h-1l-2 1v1h1.5v4z'/%3E%3C/svg%3E";
+	const ICON_SHUFFLE_OFF = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' width='24' viewBox='0 0 24 24' fill='%23424242'%3E%3Cpath d='M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm0.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z'/%3E%3C/svg%3E";
+	const ICON_SHUFFLE_ON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' width='24' viewBox='0 0 24 24' fill='%233F51B5'%3E%3Cpath d='M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm0.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z'/%3E%3C/svg%3E";
+
+    class Song {
+        constructor(title, artist, coverLink, videoIds) {
+            this.title = title;
+            this.artist = artist;
+            this.coverLink = coverLink;
+            this.videoIds = Array.isArray(videoIds) ? videoIds : [videoIds];
+            this.currentVideoIndex = 0; // to track which video to try
+        }
+        getTitle() { return this.title; }
+        getArtist() { return this.artist; }
+        getCoverLink() { return this.coverLink; }
+        
+        // gets the video ID for the current attempt
+        getCurrentVideoId() {
+            return this.videoIds && this.videoIds.length > 0 ? this.videoIds[this.currentVideoIndex] : null;
+        }
+
+        // gets the YouTube link for the video that is currently being attempted
+        getYoutubeLink() {
+            const videoId = this.getCurrentVideoId();
+            return videoId ? `https://www.youtube.com/watch?v=${videoId}` : '#';
+        }
+
+        // tries to switch to the next available video ID
+        // returns true if there is a next video, false otherwise
+        tryNextVideo() {
+            if (this.currentVideoIndex < this.videoIds.length - 1) {
+                this.currentVideoIndex++;
+                return true;
+            }
+            return false;
+        }
+
+        // resets the video index to the primary one (the first in the array)
+        resetVideoIndex() {
+            this.currentVideoIndex = 0;
+        }
+    }
+    class Playlist {
+        constructor(songs = []) { this.songs = songs; this.currentSongIndex = 0; }
+        addSong(song) { this.songs.push(song); }
+        getCurrentSong() { return this.songs.length > 0 ? this.songs[this.currentSongIndex] : null; }
+        playNext() { if (this.songs.length > 0) this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length; }
+        playPrevious() { if (this.songs.length > 0) this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length; }
+        setCurrentSongIndex(index) { if (index >= 0 && index < this.songs.length) this.currentSongIndex = index; else console.warn(`Invalid song index: ${index}`); }
+        isEmpty() { return this.songs.length === 0; }
+        getSongs() { return this.songs; }
+        setSongs(newSongs) { this.songs = newSongs; }
+    }
+
+    let playlist;
+    let activePlaylistIndex = 0;
+    let originalSongOrderForCurrentPlaylist = [];
+    let isShuffleActive = false;
+    let ytPlayer;
+    let playerReady = false;
+    let isSeeking = false;
+    let rafId = null;
+    let isUpdaterRunning = false;
+    let volumeBeforeMute = 0.5;
+    let repeatMode = 'none';
+
+    let hasUserInitiatedPlayback = true; // prevents initial autoplay
+    let isQueueSectionExpanded = true; // for collapsible queue
+
+    const TARGET_FPS = 30;
+    const FRAME_INTERVAL = 1000 / TARGET_FPS;
+    let lastRafUpdateTime = 0;
+    let playerShouldBeUpdatingWhenVisible = false;
+    const MAX_QUEUE_ITEMS_DISPLAYED = 5;
+
+    let playerContainer, mainContentWrapper, playlistSelectorContainer, playlistSelectorElement;
+    let coverElement, titleElement, artistElement, youtubeLinkElement;
+    let playPauseButton, prevButtonElement, nextButtonElement, progressBar, currentTimeElement, durationElement;
+    let volumeContainer, volumeIconElement, volumePercentageElement, volumeSlider;
+    let repeatButtonElement, shuffleButtonElement;
+    let queueContainerElement, queueTitleElement, queueListElement;
+
+    function formatTime(totalSeconds) {
+        if (isNaN(totalSeconds) || totalSeconds < 0) { return "--:--"; }
+        const minutes = Math.floor(totalSeconds / 60);
+        const seconds = Math.floor(totalSeconds % 60);
+        return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+    function shuffleArray(array) {
+        let currentIndex = array.length, randomIndex;
+        const newArray = [...array];
+        while (currentIndex !== 0) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+            [newArray[currentIndex], newArray[randomIndex]] = [newArray[randomIndex], newArray[currentIndex]];
+        }
+        return newArray;
+    }
+
+    function updateUI() {
+        const currentSong = playlist?.getCurrentSong();
+        if (!coverElement || !titleElement || !artistElement || !youtubeLinkElement) {
+            return;
+        }
+
+        if (!currentSong) {
+            coverElement.src = ""; coverElement.alt = "No cover art";
+            titleElement.textContent = "No song loaded"; titleElement.title = "";
+            artistElement.textContent = ""; artistElement.title = "";
+            youtubeLinkElement.href = "#"; youtubeLinkElement.classList.add('hidden');
+            if (playPauseButton) updatePlayPauseButton(true);
+            if (progressBar) { progressBar.value = 0; progressBar.style.setProperty('--progress-percent', '0%'); }
+            if (currentTimeElement) currentTimeElement.textContent = "0:00";
+            if (durationElement) durationElement.textContent = "--:--";
+        } else {
+            coverElement.src = currentSong.getCoverLink(); coverElement.alt = `Cover art for ${currentSong.getTitle()}`;
+            const songTitle = currentSong.getTitle();
+            titleElement.textContent = songTitle; titleElement.title = songTitle;
+            const songArtist = currentSong.getArtist();
+            artistElement.textContent = songArtist; artistElement.title = songArtist;
+            youtubeLinkElement.href = currentSong.getYoutubeLink(); youtubeLinkElement.classList.remove('hidden');
+        }
+
+        if (playerReady && ytPlayer && typeof ytPlayer.getPlayerState === 'function' && hasUserInitiatedPlayback) {
+            const state = ytPlayer.getPlayerState();
+            if (playPauseButton) updatePlayPauseButton(state !== YT.PlayerState.PLAYING && state !== YT.PlayerState.BUFFERING);
+            updateDurationDisplay();
+        } else {
+            if (playPauseButton) updatePlayPauseButton(true);
+            if (durationElement) durationElement.textContent = "--:--";
+        }
+        updateVolumeIcon();
+        if (repeatButtonElement) updateRepeatButtonUI();
+        if (shuffleButtonElement) updateShuffleButtonUI();
+        if (playlistSelectorElement) playlistSelectorElement.value = activePlaylistIndex.toString();
+        updateQueueDisplay();
+    }
+
+    function updateDurationDisplay() { 
+        if (!durationElement) return;
+        if (!playerReady || !ytPlayer || typeof ytPlayer.getDuration !== 'function' || !hasUserInitiatedPlayback) {
+            durationElement.textContent = "--:--";
+            return;
+        }
+        const duration = ytPlayer.getDuration();
+        durationElement.textContent = formatTime(duration);
+    }
+
+    function loadCurrentSong(autoplay = false, isRetry = false) {
+        console.debug(`loadCurrentSong called, autoplay=${autoplay}, isRetry=${isRetry}`);
+        const currentSong = playlist?.getCurrentSong();
+
+        // if this is a fresh attempt to play a song (not a retry from an error),
+        // reset its video index to the primary one
+        if (currentSong && !isRetry) {
+            currentSong.resetVideoIndex();
+        }
+
+        updateUI();
+        stopRafUpdater();
+        if (progressBar) { progressBar.value = 0; progressBar.style.setProperty('--progress-percent', '0%'); }
+        if (currentTimeElement) currentTimeElement.textContent = "0:00";
+        if (durationElement) durationElement.textContent = "--:--";
+
+        if (!playerReady || !ytPlayer || typeof ytPlayer.loadVideoById !== 'function') {
+             console.warn("Player not ready or loadVideoById unavailable. Cannot load song.");
+             if (playPauseButton) updatePlayPauseButton(true);
+             return;
+        }
+
+        if (!currentSong) {
+            console.warn("No current song to load.");
+            if (typeof ytPlayer.stopVideo === 'function') ytPlayer.stopVideo();
+             if (playPauseButton) updatePlayPauseButton(true);
+            return;
+        }
+
+        const videoIdToLoad = currentSong.getCurrentVideoId();
+        if (!videoIdToLoad) {
+            console.error(`No video ID found for "${currentSong.getTitle()}". Skipping.`);
+            onPlayerError({ data: 100 }); // simulate a "not found" error
+            return;
+        }
+        
+        console.log(`Loading video: ${videoIdToLoad} - ${currentSong.getTitle()}`);
+        ytPlayer.loadVideoById({
+            videoId: videoIdToLoad,
+            startSeconds: 0,
+            suggestedQuality: 'small'
+        });
+        window._musicPlayerAutoplayIntent = autoplay;
+    }
+
+    function loadNewPlaylistByIndex(newPlaylistIndex, autoplayOverride = null) {
+        if (newPlaylistIndex < 0 || newPlaylistIndex >= PLAYLISTS_DATA.length) {
+            console.warn(`Invalid playlist index: ${newPlaylistIndex}`);
+            return;
+        }
+        activePlaylistIndex = newPlaylistIndex;
+        const selectedPlaylistData = PLAYLISTS_DATA[activePlaylistIndex];
+
+        if (playerReady && ytPlayer && typeof ytPlayer.stopVideo === 'function' && hasUserInitiatedPlayback) {
+            ytPlayer.stopVideo();
+        }
+        stopRafUpdater();
+
+        const newSongs = selectedPlaylistData.songs.map(d => new Song(d.title, d.artist, d.coverLink, d.videoIds || d.videoId));
+        originalSongOrderForCurrentPlaylist = [...newSongs];
+        
+        if (isShuffleActive) {
+            const currentSongVideoId = playlist?.getCurrentSong()?.getCurrentVideoId();
+            const shuffledNewSongs = shuffleArray(newSongs);
+            playlist = new Playlist(shuffledNewSongs);
+            if (currentSongVideoId) {
+                const newIdx = playlist.getSongs().findIndex(s => s.videoIds.includes(currentSongVideoId));
+                if (newIdx !== -1) playlist.setCurrentSongIndex(newIdx);
+                else playlist.setCurrentSongIndex(0);
+            } else {
+                playlist.setCurrentSongIndex(0);
+            }
+        } else {
+            playlist = new Playlist(newSongs);
+            playlist.setCurrentSongIndex(0);
+        }
+        
+        if (!hasUserInitiatedPlayback) {
+            updateUI();
+             loadCurrentSong(false);
+        } else {
+            let shouldAutoplayThisLoad = autoplayOverride === null ? true : autoplayOverride;
+            loadCurrentSong(shouldAutoplayThisLoad);
+        }
+    }
+
+    function togglePlayPause() {
+        if (!playerReady || !ytPlayer || typeof ytPlayer.getPlayerState !== 'function') {
+             console.warn("Player not ready, cannot toggle play/pause.");
+             return;
+        }
+
+        if (!hasUserInitiatedPlayback) {
+            if (playlist.isEmpty()) {
+                console.warn("Cannot play: Playlist is empty.");
+                return;
+            }
+            hasUserInitiatedPlayback = true;
+            loadCurrentSong(true); // load the current (first) song and play it
+        } else {
+            const state = ytPlayer.getPlayerState();
+            if (state === YT.PlayerState.PLAYING) {
+                console.debug("Pausing video.");
+                ytPlayer.pauseVideo();
+            } else { // PAUSED, ENDED, CUED, UNSTARTED
+                console.debug("Playing video.");
+                if (playlist.isEmpty() && PLAYLISTS_DATA.length > 0 && PLAYLISTS_DATA[activePlaylistIndex].songs.length > 0) {
+                    loadCurrentSong(true);
+                } else if (!playlist.isEmpty()) {
+                    if (state === YT.PlayerState.ENDED && repeatMode !== 'one') {
+                        playlist.playNext();
+                        loadCurrentSong(true);
+                    } else {
+                       ytPlayer.playVideo();
+                    }
+                } else {
+                    console.warn("Cannot play: No songs in current playlist or no playlists available.");
+                }
+            }
+        }
+    }
+
+    function updatePlayPauseButton(isPaused) { 
+        if (!playPauseButton) return;
+        const img = playPauseButton.querySelector('img');
+        const label = isPaused ? "Play" : "Pause";
+        if (img) {
+            img.src = isPaused ? ICON_PLAY : ICON_PAUSE;
+            img.alt = "";
+        }
+        playPauseButton.setAttribute('aria-label', label);
+        playPauseButton.title = label;
+    }
+    function rafUpdateProgress(timestamp) { 
+        if (!isUpdaterRunning) return;
+        if (!playerReady || !ytPlayer || typeof ytPlayer.getCurrentTime !== 'function' || typeof ytPlayer.getDuration !== 'function' || !hasUserInitiatedPlayback) {
+            stopRafUpdater(); return;
+        }
+        if (isSeeking) { rafId = requestAnimationFrame(rafUpdateProgress); return; }
+
+        if (timestamp - lastRafUpdateTime >= FRAME_INTERVAL) {
+            lastRafUpdateTime = timestamp;
+            const currentTime = ytPlayer.getCurrentTime();
+            const duration = ytPlayer.getDuration();
+            if (duration && isFinite(duration) && duration > 0) {
+                const progress = (currentTime / duration) * 100;
+                if (progressBar) { progressBar.value = progress; progressBar.style.setProperty('--progress-percent', `${progress}%`); }
+                if (currentTimeElement) currentTimeElement.textContent = formatTime(currentTime);
+                if (durationElement && durationElement.textContent === "--:--") updateDurationDisplay();
+            } else {
+                if (progressBar) { progressBar.value = 0; progressBar.style.setProperty('--progress-percent', '0%'); }
+                if (currentTimeElement) currentTimeElement.textContent = "0:00";
+                if (durationElement) updateDurationDisplay();
+            }
+        }
+        if (isUpdaterRunning) rafId = requestAnimationFrame(rafUpdateProgress);
+        else { if (rafId) { cancelAnimationFrame(rafId); rafId = null; } }
+    }
+    function startRafUpdater() { 
+        if (isUpdaterRunning) return;
+        if (!playerReady || !ytPlayer || typeof ytPlayer.getPlayerState !== 'function' || ytPlayer.getPlayerState() !== YT.PlayerState.PLAYING || !hasUserInitiatedPlayback) {
+            return;
+        }
+        if (document.visibilityState === 'hidden') {
+            playerShouldBeUpdatingWhenVisible = true; return;
+        }
+        isUpdaterRunning = true; lastRafUpdateTime = 0;
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = requestAnimationFrame(rafUpdateProgress);
+    }
+    function stopRafUpdater() { 
+        if (!isUpdaterRunning && !rafId) return;
+        isUpdaterRunning = false;
+        if (rafId) { cancelAnimationFrame(rafId); rafId = null; }
+    }
+    function handleVisibilityChange() { 
+        if (!playerReady || !ytPlayer || typeof ytPlayer.getPlayerState !== 'function' || !hasUserInitiatedPlayback) return;
+        if (document.visibilityState === 'hidden') {
+            if (isUpdaterRunning) { stopRafUpdater(); playerShouldBeUpdatingWhenVisible = true; }
+            else if (ytPlayer.getPlayerState() === YT.PlayerState.PLAYING) { playerShouldBeUpdatingWhenVisible = true; }
+        } else if (document.visibilityState === 'visible') {
+            if (playerShouldBeUpdatingWhenVisible) {
+                playerShouldBeUpdatingWhenVisible = false;
+                if (ytPlayer.getPlayerState() === YT.PlayerState.PLAYING) startRafUpdater();
+            } else if (!isUpdaterRunning && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING) {
+                startRafUpdater();
+            }
+        }
+    }
+
+    function onPlayerReady(event) {
+        console.log("YouTube player ready!");
+        playerReady = true;
+        setVolumeFromSlider(false);
+        
+        updateUI();
+		updateVolumeIcon();
+		
+		if (hasUserInitiatedPlayback && playlist && !playlist.isEmpty()) {
+            console.log("Attempting to autoplay first song...");
+            loadCurrentSong(true);
+        }
+
+        if (document.visibilityState === 'visible' && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING && hasUserInitiatedPlayback) {
+            startRafUpdater();
+        } else if (document.visibilityState === 'hidden' && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING && hasUserInitiatedPlayback) {
+            playerShouldBeUpdatingWhenVisible = true;
+        }
+    }
+
+    function onPlayerStateChange(event) {
+        const state = event.data;
+        const stateName = Object.keys(YT.PlayerState).find(key => YT.PlayerState[key] === state) || 'UNKNOWN';
+        //console.log(`Player state changed: ${state} (${stateName})`);
+
+        if (state !== YT.PlayerState.UNSTARTED && state !== -1) {
+        }
+
+        updateDurationDisplay();
+
+        switch (state) {
+            case YT.PlayerState.PLAYING:
+                if (playPauseButton) updatePlayPauseButton(false);
+                startRafUpdater();
+                updateUI();
+                break;
+            case YT.PlayerState.PAUSED:
+                if (playPauseButton) updatePlayPauseButton(true);
+                stopRafUpdater();
+                break;
+            case YT.PlayerState.ENDED:
+                stopRafUpdater();
+                if (playPauseButton) updatePlayPauseButton(true);
+                if (progressBar) { progressBar.value = 100; progressBar.style.setProperty('--progress-percent', '100%'); }
+                if (currentTimeElement && ytPlayer && typeof ytPlayer.getDuration === 'function') {
+                    currentTimeElement.textContent = formatTime(ytPlayer.getDuration());
+                }
+
+                if (!hasUserInitiatedPlayback) {
+                    updateUI();
+                    return;
+                }
+
+                if (repeatMode === 'one') {
+                    ytPlayer.seekTo(0, true);
+                    ytPlayer.playVideo();
+                } else {
+                    const previousSongIndex = playlist.currentSongIndex;
+                    playlist.playNext();
+                    
+                    const isLastSongAndNotRepeatingAll = playlist.currentSongIndex === 0 && 
+                                                        previousSongIndex === playlist.getSongs().length -1 && 
+                                                        repeatMode !== 'all';
+                    
+                    let shouldAutoplay;
+                    if (isLastSongAndNotRepeatingAll) {
+                        shouldAutoplay = false;
+                    } else {
+                        shouldAutoplay = true;
+                    }
+                    loadCurrentSong(shouldAutoplay);
+                }
+                break;
+            case YT.PlayerState.BUFFERING:
+                if (playPauseButton) updatePlayPauseButton(false);
+                break;
+            case YT.PlayerState.CUED:
+                if (playPauseButton) updatePlayPauseButton(true);
+                stopRafUpdater();
+                if (progressBar) { progressBar.value = 0; progressBar.style.setProperty('--progress-percent', '0%'); }
+                if (currentTimeElement) currentTimeElement.textContent = "0:00";
+                updateUI(); 
+                updateDurationDisplay(); 
+
+                if (window._musicPlayerAutoplayIntent === true) {
+                    ytPlayer.playVideo();
+                }
+                break;
+            case YT.PlayerState.UNSTARTED:
+                if (playPauseButton) updatePlayPauseButton(true);
+                stopRafUpdater();
+                if (currentTimeElement) currentTimeElement.textContent = "0:00";
+                if (durationElement) durationElement.textContent = "--:--";
+                updateUI();
+                break;
+            default: break;
+        }
+    }
+    function onPlayerError(event) { 
+        const recoverableErrorCodes = [2, 5, 100, 101, 150];
+        const errorCodes = { 2: 'Invalid parameter.', 5: 'HTML5 error.', 100: 'Not found/private.', 101: 'Embedding disallowed.', 150: 'Embedding disallowed.' };
+        const errorMsg = errorCodes[event.data] || `Unknown error (${event.data})`;
+        console.error(`YouTube Player Error: ${errorMsg}`);
+
+        const currentSong = playlist?.getCurrentSong();
+
+        // if the error is recoverable (e.g., video blocked), try the next available video ID
+        if (currentSong && recoverableErrorCodes.includes(event.data)) {
+            console.log(`Video failed for "${currentSong.getTitle()}". Checking for alternatives...`);
+            if (currentSong.tryNextVideo()) {
+                console.log(`Found an alternative. Attempting to play video ID: ${currentSong.getCurrentVideoId()}`);
+                // reload the song with the next video ID. isRetry=true prevents resetting the video index
+                loadCurrentSong(window._musicPlayerAutoplayIntent, true);
+                return; // stop further error processing for this event
+            } else {
+                console.warn(`No more alternative videos for "${currentSong.getTitle()}".`);
+            }
+        }
+
+        // handle final/unrecoverable errors
+        if (playPauseButton) updatePlayPauseButton(true);
+        stopRafUpdater();
+        if (titleElement) titleElement.textContent = "Error";
+        if (artistElement) artistElement.textContent = errorMsg;
+    }
+    function setVolumeFromSlider(shouldUnmute = true) {
+		if (!volumeSlider || !volumePercentageElement) return;
+		const volumeValue = parseFloat(volumeSlider.value);
+		const newVolumePercent = Math.round(volumeValue * 100);
+
+		if (playerReady && ytPlayer && typeof ytPlayer.setVolume === 'function') {
+			ytPlayer.setVolume(newVolumePercent);
+			if (shouldUnmute && newVolumePercent > 0 && typeof ytPlayer.isMuted === 'function' && ytPlayer.isMuted()) {
+				ytPlayer.unMute();
+			}
+			if (newVolumePercent === 0 && typeof ytPlayer.mute === 'function' && !ytPlayer.isMuted()) {
+				ytPlayer.mute();
+			}
+		}
+		
+		volumePercentageElement.textContent = `${newVolumePercent}%`;
+	}
+	function toggleMute() {
+		if (!playerReady || !ytPlayer || !volumeSlider || !volumeIconElement) return;
+
+		const isCurrentlyMuted = ytPlayer.isMuted();
+
+		if (isCurrentlyMuted) {
+			ytPlayer.unMute();
+			const restoreVolume = (volumeBeforeMute > 0) ? volumeBeforeMute : 0.5;
+			ytPlayer.setVolume(restoreVolume * 100);
+			volumeSlider.value = restoreVolume;
+			if (volumePercentageElement) {
+				volumePercentageElement.textContent = `${Math.round(restoreVolume * 100)}%`;
+			}
+			volumeIconElement.src = ICON_VOLUME;
+			volumeIconElement.alt = "Mute";
+			volumeIconElement.title = "Mute";
+
+		} else {
+			const currentSliderValue = parseFloat(volumeSlider.value);
+			if (currentSliderValue > 0) {
+				volumeBeforeMute = currentSliderValue;
+			}
+			
+			ytPlayer.mute();
+			volumeSlider.value = 0;
+			if (volumePercentageElement) {
+				volumePercentageElement.textContent = `0%`;
+			}
+			
+			volumeIconElement.src = ICON_MUTED;
+			volumeIconElement.alt = "Unmute";
+			volumeIconElement.title = "Unmute";
+		}
+	}
+    function updateVolumeIcon() {
+		if (!volumeIconElement || !volumeSlider) return;
+
+		const sliderValue = parseFloat(volumeSlider.value);
+		const isMutedBySlider = sliderValue === 0;
+
+		let isMutedByPlayer = false;
+		if (playerReady && ytPlayer && typeof ytPlayer.isMuted === 'function') {
+			isMutedByPlayer = ytPlayer.isMuted();
+		}
+		
+		const isEffectivelyMuted = isMutedBySlider || isMutedByPlayer;
+
+		volumeIconElement.src = isEffectivelyMuted ? ICON_MUTED : ICON_VOLUME;
+		volumeIconElement.alt = isEffectivelyMuted ? "Unmute" : "Mute";
+		volumeIconElement.title = isEffectivelyMuted ? "Unmute" : "Mute";
+	}
+    function toggleRepeatMode() { 
+        switch (repeatMode) {
+            case 'none': repeatMode = 'all'; break;
+            case 'all': repeatMode = 'one'; break;
+            case 'one': repeatMode = 'none'; break;
+            default: repeatMode = 'none';
+        }
+        updateRepeatButtonUI();
+        updateQueueDisplay();
+    }
+    function updateRepeatButtonUI() { 
+        if (!repeatButtonElement) return;
+        const img = repeatButtonElement.querySelector('img');
+        let iconSrc = ICON_REPEAT_NONE; let label = "Repeat Off";
+        repeatButtonElement.classList.remove('repeat-active', 'repeat-one');
+        if (repeatMode === 'all') { iconSrc = ICON_REPEAT_ALL; label = "Repeat All"; repeatButtonElement.classList.add('repeat-active'); }
+        else if (repeatMode === 'one') { iconSrc = ICON_REPEAT_ONE; label = "Repeat One"; repeatButtonElement.classList.add('repeat-active', 'repeat-one'); }
+        if (img) { img.src = iconSrc; img.alt = ""; }
+        repeatButtonElement.setAttribute('aria-label', label); repeatButtonElement.title = label;
+    }
+    function toggleShuffleMode() { 
+        if (!playlist || playlist.isEmpty()) return;
+
+        isShuffleActive = !isShuffleActive;
+        const currentSongBeforeToggle = playlist.getCurrentSong();
+
+        if (isShuffleActive) {
+            const shuffledSongs = shuffleArray(originalSongOrderForCurrentPlaylist);
+            playlist.setSongs(shuffledSongs);
+        } else {
+            playlist.setSongs([...originalSongOrderForCurrentPlaylist]);
+        }
+
+        if (currentSongBeforeToggle) {
+            const newIndex = playlist.getSongs().findIndex(song => song.getCurrentVideoId() === currentSongBeforeToggle.getCurrentVideoId());
+            playlist.setCurrentSongIndex(newIndex !== -1 ? newIndex : 0);
+        } else {
+            playlist.setCurrentSongIndex(0);
+        }
+
+        updateShuffleButtonUI();
+        updateQueueDisplay();
+        updateUI();
+    }
+    function updateShuffleButtonUI() { 
+        if (!shuffleButtonElement) return;
+        const img = shuffleButtonElement.querySelector('img');
+        let iconSrc = isShuffleActive ? ICON_SHUFFLE_ON : ICON_SHUFFLE_OFF;
+        let label = isShuffleActive ? "Shuffle On" : "Shuffle Off";
+        shuffleButtonElement.classList.toggle('shuffle-active', isShuffleActive);
+        if (img) { img.src = iconSrc; img.alt = ""; }
+        shuffleButtonElement.setAttribute('aria-label', label); shuffleButtonElement.title = label;
+    }
+
+    function updateQueueDisplay() {
+        if (!queueListElement || !playlist) {
+            if (queueListElement) queueListElement.innerHTML = `<li class="${PLAYER_QUEUE_ITEM_CLASS} player-queue-empty">Queue is empty</li>`;
+            if (queueTitleElement) queueTitleElement.style.display = (playlist && !playlist.isEmpty() && PLAYLISTS_DATA.length > 0) ? 'flex' : 'none'
+            return;
+        }
+        if (queueTitleElement) queueTitleElement.style.display = 'flex';
+
+        if (playlist.isEmpty()){
+            queueListElement.innerHTML = `<li class="${PLAYER_QUEUE_ITEM_CLASS} player-queue-empty">Queue is empty</li>`;
+            return;
+        }
+
+
+        queueListElement.innerHTML = '';
+        const songs = playlist.getSongs();
+        const currentIndex = playlist.currentSongIndex;
+        const numSongs = songs.length;
+
+        if (numSongs <= 1) {
+            queueListElement.innerHTML = `<li class="${PLAYER_QUEUE_ITEM_CLASS} player-queue-empty">No upcoming songs</li>`;
+            return;
+        }
+
+        let songsShownCount = 0;
+        for (let i = 1; i < numSongs && songsShownCount < MAX_QUEUE_ITEMS_DISPLAYED; i++) {
+            let nextIndex = (currentIndex + i) % numSongs;
+            if (repeatMode !== 'all' && !isShuffleActive && nextIndex < (currentIndex + i) && nextIndex < currentIndex) {
+                break; 
+            }
+            
+            const song = songs[nextIndex];
+            const li = document.createElement("li");
+            li.className = PLAYER_QUEUE_ITEM_CLASS;
+            li.dataset.songIndex = nextIndex;
+
+            const titleSpan = document.createElement("span");
+            titleSpan.className = "player-queue-item-title";
+            titleSpan.textContent = song.getTitle();
+            titleSpan.title = song.getTitle();
+
+            const artistSpan = document.createElement("span");
+            artistSpan.className = "player-queue-item-artist";
+            artistSpan.textContent = ` - ${song.getArtist()}`;
+            artistSpan.title = song.getArtist();
+
+            li.appendChild(titleSpan);
+            li.appendChild(artistSpan);
+
+            li.addEventListener('click', () => {
+                if (!hasUserInitiatedPlayback) {
+                    hasUserInitiatedPlayback = true;
+                }
+                const songIndexToPlay = parseInt(li.dataset.songIndex, 10);
+                playlist.setCurrentSongIndex(songIndexToPlay);
+                loadCurrentSong(true);
+            });
+            queueListElement.appendChild(li);
+            songsShownCount++;
+        }
+
+        if (songsShownCount === 0 && queueListElement.innerHTML === '') {
+             queueListElement.innerHTML = `<li class="${PLAYER_QUEUE_ITEM_CLASS} player-queue-empty">End of playlist</li>`;
+        }
+    }
+
+    function toggleQueueExpansion() {
+        isQueueSectionExpanded = !isQueueSectionExpanded;
+        const queueContainer = document.getElementById(QUEUE_CONTAINER_ID);
+        const toggleIcon = document.getElementById(QUEUE_TOGGLE_ICON_ID);
+
+        if (!queueContainer || !toggleIcon) return;
+
+        if (isQueueSectionExpanded) {
+            queueContainer.classList.remove('queue-collapsed');
+            toggleIcon.innerHTML = "▼"; // down arrow ▼
+        } else {
+            queueContainer.classList.add('queue-collapsed');
+            toggleIcon.innerHTML = "▶"; // right arrow ►
+        }
+    }
+	
+	function createPlayerElements() {
+        const fragment = document.createDocumentFragment();
+        playerContainer = document.createElement("div"); playerContainer.id = PLAYER_ELEMENT_ID; fragment.appendChild(playerContainer);
+        
+        const mainPlayerArea = document.createElement("div");
+        mainPlayerArea.id = "player-main-area";
+        playerContainer.appendChild(mainPlayerArea);
+
+        mainContentWrapper = document.createElement("div"); mainContentWrapper.id = PLAYER_MAIN_CONTENT_WRAPPER_ID; mainPlayerArea.appendChild(mainContentWrapper);
+
+        const displayBox = document.createElement("div"); displayBox.id = DISPLAY_BOX_ID;
+        coverElement = document.createElement("img"); coverElement.id = COVER_ID; coverElement.alt = "Album cover"; coverElement.src = ""; displayBox.appendChild(coverElement);
+        mainContentWrapper.appendChild(displayBox);
+
+        const rightPanel = document.createElement("div");
+        rightPanel.id = PLAYER_RIGHT_PANEL_ID;
+        mainContentWrapper.appendChild(rightPanel);
+
+        playlistSelectorContainer = document.createElement("div");
+        playlistSelectorContainer.id = PLAYLIST_SELECTOR_CONTAINER_ID;
+        const playlistLabel = document.createElement("label"); playlistLabel.htmlFor = PLAYLIST_SELECTOR_ID; playlistLabel.textContent = "Select playlist:"; playlistSelectorContainer.appendChild(playlistLabel);
+        playlistSelectorElement = document.createElement("select"); playlistSelectorElement.id = PLAYLIST_SELECTOR_ID; playlistSelectorElement.title = "Select playlist"; playlistSelectorContainer.appendChild(playlistSelectorElement);
+        rightPanel.appendChild(playlistSelectorContainer);
+
+        const infoContainer = document.createElement("div"); infoContainer.id = INFO_CONTAINER_ID;
+        const songInfo = document.createElement("div"); songInfo.id = SONG_INFO_ID;
+        const titleLineWrapper = document.createElement("div"); titleLineWrapper.className = TITLE_LINE_WRAPPER_CLASS;
+        titleElement = document.createElement("h3"); titleElement.id = TITLE_ID; titleElement.textContent = "Loading..."; titleLineWrapper.appendChild(titleElement);
+        youtubeLinkElement = document.createElement("a"); youtubeLinkElement.id = YOUTUBE_LINK_ID; youtubeLinkElement.target = "_blank"; youtubeLinkElement.rel = "noopener noreferrer"; youtubeLinkElement.title = "Watch on YouTube"; youtubeLinkElement.classList.add('hidden');
+        const ytIcon = document.createElement("img"); ytIcon.src = ICON_YOUTUBE; ytIcon.alt = "YouTube"; youtubeLinkElement.appendChild(ytIcon); titleLineWrapper.appendChild(youtubeLinkElement);
+        songInfo.appendChild(titleLineWrapper);
+        artistElement = document.createElement("p"); artistElement.id = ARTIST_ID; artistElement.textContent = ""; songInfo.appendChild(artistElement);
+        infoContainer.appendChild(songInfo);
+        rightPanel.appendChild(infoContainer);
+
+        const progressBarContainer = document.createElement("div"); progressBarContainer.id = PROGRESS_BAR_CONTAINER_ID;
+        currentTimeElement = document.createElement("span"); currentTimeElement.id = CURRENT_TIME_ID; currentTimeElement.textContent = "0:00"; progressBarContainer.appendChild(currentTimeElement);
+        progressBar = document.createElement("input"); progressBar.type = "range"; progressBar.id = PROGRESS_BAR_ID; progressBar.value = "0"; progressBar.min = "0"; progressBar.max = "100"; progressBar.step = "0.1"; progressBar.title="Seek"; progressBar.style.setProperty('--progress-percent', '0%'); progressBarContainer.appendChild(progressBar);
+        durationElement = document.createElement("span"); durationElement.id = DURATION_ID; durationElement.textContent = "--:--"; progressBarContainer.appendChild(durationElement);
+        rightPanel.appendChild(progressBarContainer);
+        
+        const controlsContainer = document.createElement("div"); controlsContainer.id = CONTROLS_CONTAINER_ID;
+        const controls = document.createElement("div"); controls.id = CONTROLS_ID;
+        
+        shuffleButtonElement = document.createElement("button"); shuffleButtonElement.id = SHUFFLE_BUTTON_ID; shuffleButtonElement.classList.add(PLAYER_CONTROL_BUTTON_CLASS, 'player-shuffle-button');
+        const shuffleIcon = document.createElement("img"); shuffleIcon.alt = ""; shuffleIcon.src = ICON_SHUFFLE_OFF; shuffleButtonElement.appendChild(shuffleIcon); controls.appendChild(shuffleButtonElement);
+        
+        prevButtonElement = document.createElement("button"); prevButtonElement.id = PREV_BUTTON_ID; prevButtonElement.classList.add(PLAYER_CONTROL_BUTTON_CLASS); prevButtonElement.setAttribute('aria-label', 'Previous song'); prevButtonElement.title = 'Previous song';
+        const prevIcon = document.createElement("img"); prevIcon.src = ICON_PREV; prevIcon.alt = ""; prevButtonElement.appendChild(prevIcon); controls.appendChild(prevButtonElement);
+        
+        playPauseButton = document.createElement("button"); playPauseButton.id = PLAY_PAUSE_BUTTON_ID; playPauseButton.classList.add(PLAYER_CONTROL_BUTTON_CLASS);
+        const playPauseIcon = document.createElement("img"); playPauseIcon.alt = ""; playPauseIcon.src = ICON_PLAY; playPauseButton.appendChild(playPauseIcon); controls.appendChild(playPauseButton);
+        
+        nextButtonElement = document.createElement("button"); nextButtonElement.id = NEXT_BUTTON_ID; nextButtonElement.classList.add(PLAYER_CONTROL_BUTTON_CLASS); nextButtonElement.setAttribute('aria-label', 'Next song'); nextButtonElement.title = 'Next song';
+        const nextIcon = document.createElement("img"); nextIcon.src = ICON_NEXT; nextIcon.alt = ""; nextButtonElement.appendChild(nextIcon); controls.appendChild(nextButtonElement);
+
+        repeatButtonElement = document.createElement("button"); repeatButtonElement.id = REPEAT_BUTTON_ID; repeatButtonElement.classList.add(PLAYER_CONTROL_BUTTON_CLASS, 'player-repeat-button');
+        const repeatIcon = document.createElement("img"); repeatIcon.alt = ""; repeatIcon.src = ICON_REPEAT_NONE; repeatButtonElement.appendChild(repeatIcon); controls.appendChild(repeatButtonElement);
+        
+        controlsContainer.appendChild(controls);
+
+        volumeContainer = document.createElement("div"); volumeContainer.id = VOLUME_CONTAINER_ID;
+        volumeIconElement = document.createElement("img"); volumeIconElement.id = VOLUME_ICON_ID; volumeIconElement.alt = "Mute"; volumeIconElement.title = "Mute/Unmute"; volumeIconElement.style.cursor = 'pointer'; volumeIconElement.src = ICON_VOLUME; volumeContainer.appendChild(volumeIconElement);
+        volumePercentageElement = document.createElement("span"); volumePercentageElement.id = VOLUME_PERCENTAGE_ID; volumePercentageElement.textContent = "50%"; volumeContainer.appendChild(volumePercentageElement);
+        volumeSlider = document.createElement("input"); volumeSlider.type = "range"; volumeSlider.id = VOLUME_SLIDER_ID; volumeSlider.min = 0; volumeSlider.max = 1; volumeSlider.step = 0.01; volumeSlider.value = 0.5; volumeSlider.title = "Adjust volume"; volumeContainer.appendChild(volumeSlider);
+        controlsContainer.appendChild(volumeContainer);
+
+        rightPanel.appendChild(controlsContainer);
+
+        queueContainerElement = document.createElement("div"); queueContainerElement.id = QUEUE_CONTAINER_ID;
+        queueTitleElement = document.createElement("h4"); queueTitleElement.id = QUEUE_TITLE_ID;
+        queueTitleElement.innerHTML = `Up next <span id="${QUEUE_TOGGLE_ICON_ID}">${isQueueSectionExpanded ? "▼" : "▸"}</span>`;
+        queueContainerElement.appendChild(queueTitleElement);
+        queueListElement = document.createElement("ul"); queueListElement.id = QUEUE_LIST_ID; queueContainerElement.appendChild(queueListElement);
+        mainPlayerArea.appendChild(queueContainerElement);
+
+        const youtubePlayerDiv = document.createElement("div"); youtubePlayerDiv.id = YOUTUBE_PLAYER_DIV_ID; fragment.appendChild(youtubePlayerDiv);
+        return fragment;
+    }
+
+    function loadYouTubeAPI() {
+        return new Promise((resolve, reject) => {
+            if (typeof YT !== 'undefined' && typeof YT.Player !== 'undefined') { resolve(); return; }
+            window.onYouTubeIframeAPIReady = () => { resolve(); };
+            const existingScript = document.querySelector('script[src="https://www.youtube.com/iframe_api"]');
+            if (existingScript) return;
+            const tag = document.createElement('script'); tag.src = "https://www.youtube.com/iframe_api";
+            tag.onerror = (err) => { console.error("Failed to load YouTube API script:", err); delete window.onYouTubeIframeAPIReady; reject(err); };
+            const firstScriptTag = document.getElementsByTagName('script')[0];
+            if (firstScriptTag && firstScriptTag.parentNode) firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+            else document.head.appendChild(tag);
+        });
+    }
+
+    function bindUIEventListeners() {
+        if (!playPauseButton || !nextButtonElement || !prevButtonElement || !repeatButtonElement || !shuffleButtonElement ||
+            !progressBar || !volumeIconElement || !volumeSlider || !playlistSelectorElement || !queueTitleElement) {
+            console.error("Failed to bind listeners: Core UI elements missing.");
+            return;
+        }
+
+        playPauseButton.addEventListener("click", togglePlayPause);
+        nextButtonElement.addEventListener("click", () => {
+            if (!hasUserInitiatedPlayback) {
+                if (playlist.isEmpty()) return;
+                hasUserInitiatedPlayback = true;
+                playlist?.playNext();
+                loadCurrentSong(true);
+            } else {
+                const wasPlaying = playerReady && ytPlayer?.getPlayerState() === YT.PlayerState.PLAYING;
+                const shouldAutoplay = wasPlaying || repeatMode === 'all' || (playlist.currentSongIndex !== playlist.getSongs().length - 1);
+                playlist?.playNext();
+                loadCurrentSong(shouldAutoplay);
+            }
+        });
+        prevButtonElement.addEventListener("click", () => {
+            if (!hasUserInitiatedPlayback) {
+                 if (playlist.isEmpty()) return;
+                hasUserInitiatedPlayback = true;
+                playlist?.playPrevious();
+                loadCurrentSong(true);
+            } else {
+                const wasPlaying = playerReady && ytPlayer?.getPlayerState() === YT.PlayerState.PLAYING;
+                const shouldAutoplay = wasPlaying || repeatMode === 'all';
+                playlist?.playPrevious();
+                loadCurrentSong(shouldAutoplay);
+            }
+        });
+        repeatButtonElement.addEventListener("click", toggleRepeatMode);
+        shuffleButtonElement.addEventListener("click", toggleShuffleMode);
+        volumeIconElement.addEventListener("click", toggleMute);
+        queueTitleElement.addEventListener('click', toggleQueueExpansion);
+
+        progressBar.addEventListener("mousedown", () => { isSeeking = true; stopRafUpdater(); });
+        progressBar.addEventListener("touchstart", () => { isSeeking = true; stopRafUpdater(); }, { passive: true });
+        progressBar.addEventListener("input", () => {
+            if (!isSeeking || !hasUserInitiatedPlayback) return;
+            const percentage = progressBar.value;
+            progressBar.style.setProperty('--progress-percent', `${percentage}%`);
+            if (playerReady && ytPlayer && typeof ytPlayer.getDuration === 'function' && currentTimeElement) {
+                const duration = ytPlayer.getDuration();
+                if (duration && isFinite(duration)) {
+                    currentTimeElement.textContent = formatTime((percentage / 100) * duration);
+                }
+            }
+        });
+        progressBar.addEventListener("change", () => {
+            if (!hasUserInitiatedPlayback) {
+                 isSeeking = false; return;
+            }
+            if (!playerReady || !ytPlayer || typeof ytPlayer.getDuration !== 'function' || typeof ytPlayer.seekTo !== 'function') {
+                 isSeeking = false; return;
+            }
+            const duration = ytPlayer.getDuration();
+            if (!duration || !isFinite(duration) || duration <= 0) { isSeeking = false; return; }
+            const seekTime = (progressBar.value / 100) * duration;
+            ytPlayer.seekTo(seekTime, true);
+            if (currentTimeElement) currentTimeElement.textContent = formatTime(seekTime);
+            isSeeking = false;
+            const state = ytPlayer.getPlayerState();
+            if (state === YT.PlayerState.PLAYING) startRafUpdater();
+            else stopRafUpdater();
+        });
+        const handleSeekEnd = () => { if (isSeeking) progressBar.dispatchEvent(new Event('change')); };
+        progressBar.addEventListener("mouseup", handleSeekEnd);
+        progressBar.addEventListener("touchend", handleSeekEnd);
+		
+		volumeSlider.addEventListener("input", () => {
+			setVolumeFromSlider(true);
+			updateVolumeIcon();
+		});
+        
+        playlistSelectorElement.addEventListener("change", (event) => {
+            const newIndex = parseInt(event.target.value, 10);
+            if (!isNaN(newIndex)) {
+                if (!hasUserInitiatedPlayback) {
+                    loadNewPlaylistByIndex(newIndex, false);
+                } else {
+                    const wasPlaying = playerReady && ytPlayer && typeof ytPlayer.getPlayerState === 'function' && ytPlayer.getPlayerState() === YT.PlayerState.PLAYING;
+                    loadNewPlaylistByIndex(newIndex, wasPlaying);
+                }
+            }
+        });
+
+        document.addEventListener('visibilitychange', handleVisibilityChange);
+    }
+
+    function injectPlayerStyles() {
+        const styleId = "nice-music-player-styles";
+        if (document.getElementById(styleId)) document.getElementById(styleId).remove();
+        const style = document.createElement("style"); style.id = styleId;
+        style.textContent = `
+            :root {
+              --player-bg: #ffffff; --player-border: rgba(0, 0, 0, 0.12);
+              --text-primary: #212121; --text-secondary: #757575;
+              --accent-color: #3F51B5; --accent-color-hover: #303F9F;
+              --border-color: #EEEEEE; --cover-border-color: rgba(0, 0, 0, 0.08);
+              --slider-track-bg: #E0E0E0; --slider-thumb-bg: #3F51B5;
+              --slider-thumb-hover-bg: #303F9F; --progress-fill-bg: #3F51B5;
+              --cover-art-size: 10rem;
+              --base-font-size: 14px; --border-radius: 4px; --button-size: 36px;
+              --small-button-size: 24px; --spacing-xs: 4px; --spacing-sm: 8px;
+              --spacing-md: 16px; --spacing-lg: 24px;
+              --font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+              --title-font-size: 16px; --artist-font-size: 14px; --time-font-size: 12px;
+              --transition-speed: 0.2s; --transition-func: cubic-bezier(0.4, 0, 0.2, 1);
+              --queue-item-hover-bg: #f0f0f0;
+            }
+            #${PLAYER_ELEMENT_ID} { 
+                background-color: var(--player-bg); border-radius: var(--border-radius); 
+                font-family: var(--font-family); font-size: var(--base-font-size); 
+                color: var(--text-primary); padding: var(--spacing-md); 
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+                margin: var(--spacing-md) auto; overflow: hidden; position: relative; 
+                box-sizing: border-box; max-width: clamp(50rem, 70vw, 60rem);
+            }
+            #player-main-area { display: flex; flex-direction: column; }
+            #${PLAYER_MAIN_CONTENT_WRAPPER_ID} {
+                display: flex; align-items: flex-start;
+                gap: var(--spacing-lg); width: 100%;
+            }
+            #${PLAYER_RIGHT_PANEL_ID} {
+                display: flex; flex-direction: column;
+                flex-grow: 1; min-width: 0;
+            }
+            #${PLAYLIST_SELECTOR_CONTAINER_ID} {
+                display: flex; align-items: center; gap: var(--spacing-sm);
+                margin-bottom: var(--spacing-sm);
+            }
+            #${PLAYLIST_SELECTOR_CONTAINER_ID} label { font-size: var(--artist-font-size); color: var(--text-secondary); flex-shrink: 0; }
+            #${PLAYLIST_SELECTOR_ID} { 
+                font-family: var(--font-family); font-size: 13px; padding: 4px 8px; 
+                border: 1px solid var(--border-color); border-radius: var(--border-radius); 
+                background-color: var(--player-bg); color: var(--text-primary); 
+                flex-grow: 1; min-width: 150px; height: auto; box-sizing: border-box; 
+                -webkit-appearance: none; -moz-appearance: none; appearance: none; 
+                background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%204%205%22%3E%3Cpath%20fill%3D%22%23555%22%20d%3D%22M2%200L0%202h4zm0%205L0%203h4z%22/%3E%3C/svg%3E'); 
+                background-repeat: no-repeat; background-position: right 8px center; 
+                background-size: 8px 10px; padding-right: 25px; cursor:pointer; 
+            }
+            #${PLAYLIST_SELECTOR_ID}:focus { outline: 1px solid var(--accent-color); border-color: var(--accent-color); }
+            .hidden { display: none !important; }
+            #${DISPLAY_BOX_ID} { display: block; flex-shrink: 0; }
+            #${COVER_ID} { width: var(--cover-art-size); height: var(--cover-art-size); object-fit: cover; border-radius: var(--border-radius); box-shadow: 0 1px 3px var(--cover-border-color); flex-shrink: 0; background-color: var(--border-color); transition: transform var(--transition-speed) var(--transition-func); }
+            #${COVER_ID}:hover { transform: scale(1.03); }
+            #${INFO_CONTAINER_ID} { display: flex; flex-direction: column; justify-content: center; overflow: hidden; flex-grow: 1; min-width: 0; padding: var(--spacing-xs) 0; }
+            #${SONG_INFO_ID} { display: flex; flex-direction: column; overflow: hidden; justify-content: center; }
+            .${TITLE_LINE_WRAPPER_CLASS} { display: flex; align-items: baseline; margin-bottom: var(--spacing-xs); gap: var(--spacing-xs); }
+            #${TITLE_ID} { font-size: var(--title-font-size); font-weight: 500; margin: 0; white-space: normal; overflow-wrap: break-word; line-height: 1.3; color: var(--text-primary); flex-grow: 1; cursor: default; }
+            #${YOUTUBE_LINK_ID} { flex-shrink: 0; line-height: 1; opacity: 0.7; transition: opacity var(--transition-speed) var(--transition-func); margin-left: 2px; }
+            #${YOUTUBE_LINK_ID}:hover, #${YOUTUBE_LINK_ID}:focus { opacity: 1; }
+            #${YOUTUBE_LINK_ID} img { width: 18px; height: auto; display: block; }
+            #${ARTIST_ID} { font-size: var(--artist-font-size); margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-secondary); line-height: 1.3; cursor: default; }
+            #${PROGRESS_BAR_CONTAINER_ID} { width: 100%; display: flex; align-items: center; gap: var(--spacing-sm); margin: var(--spacing-sm) 0; }
+            #${CONTROLS_CONTAINER_ID} { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: var(--spacing-md); margin-top: auto; }
+            #${CONTROLS_ID} { display: flex; justify-content: center; align-items: center; gap: var(--spacing-sm); }
+            .${PLAYER_CONTROL_BUTTON_CLASS} { background: none; border: none; cursor: pointer; border-radius: 50%; display: inline-flex; justify-content: center; align-items: center; width: var(--button-size); height: var(--button-size); opacity: 0.85; transition: all var(--transition-speed) var(--transition-func); padding: 0; margin: 0; flex-shrink: 0; outline: none; }
+            .${PLAYER_CONTROL_BUTTON_CLASS}:hover { opacity: 1; transform: scale(1.08); background-color: rgba(0,0,0,0.05); }
+            .${PLAYER_CONTROL_BUTTON_CLASS}:active { transform: scale(0.95); opacity: 0.9; }
+            .${PLAYER_CONTROL_BUTTON_CLASS}:focus-visible { opacity: 1; outline: 2px solid var(--accent-color); outline-offset: 2px; }
+            .${PLAYER_CONTROL_BUTTON_CLASS} img { display: block; width: 60%; height: 60%; user-select: none; -webkit-user-drag: none; -webkit-user-select: none; }
+            #${PLAY_PAUSE_BUTTON_ID} { width: calc(var(--button-size) * 1.25); height: calc(var(--button-size) * 1.25); background-color: rgba(63, 81, 181, 0.08); }
+            #${PLAY_PAUSE_BUTTON_ID}:hover { background-color: rgba(63, 81, 181, 0.12); }
+            .player-repeat-button, .player-shuffle-button { width: var(--small-button-size); height: var(--small-button-size); opacity: 0.6; }
+            .player-repeat-button.repeat-active, .player-shuffle-button.shuffle-active { opacity: 1; background-color: rgba(63, 81, 181, 0.1); }
+            #${CURRENT_TIME_ID}, #${DURATION_ID} { font-size: var(--time-font-size); color: var(--text-secondary); flex-shrink: 0; min-width: 3.2em; text-align: center; font-variant-numeric: tabular-nums; }
+            #${VOLUME_CONTAINER_ID} { display: flex; align-items: center; gap: var(--spacing-sm); flex-shrink: 0; }
+            #${VOLUME_ICON_ID} { width: 20px; height: 20px; opacity: 0.7; cursor: pointer; transition: opacity var(--transition-speed) var(--transition-func); filter: brightness(0.2); padding: 2px; border-radius: 50%; user-select: none; -webkit-user-select: none; }
+            #${VOLUME_ICON_ID}:hover { opacity: 1; background-color: rgba(0,0,0,0.05); }
+            #${VOLUME_PERCENTAGE_ID} { font-size: 12px; color: var(--text-secondary); min-width: 2.5em; text-align: right; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+            #${VOLUME_SLIDER_ID} { width: 80px; flex-grow: 0; flex-shrink: 0; }
+            input[type="range"] { -webkit-appearance: none; appearance: none; background: transparent; cursor: pointer; width: 100%; outline: none; transition: opacity var(--transition-speed) var(--transition-func); flex-grow: 1; height: 16px; vertical-align: middle; padding: 0; margin: 0; }
+            input[type="range"]::-webkit-slider-runnable-track { height: 4px; background: var(--slider-track-bg); border-radius: 2px; }
+            input[type="range"]::-moz-range-track { height: 4px; background: var(--slider-track-bg); border-radius: 2px; }
+            #${PROGRESS_BAR_ID}::-webkit-slider-runnable-track { background: linear-gradient( to right, var(--progress-fill-bg), var(--progress-fill-bg) var(--progress-percent, 0%), var(--slider-track-bg) var(--progress-percent, 0%) ); }
+            #${PROGRESS_BAR_ID}::-moz-range-track { background: linear-gradient( to right, var(--progress-fill-bg), var(--progress-fill-bg) var(--progress-percent, 0%), var(--slider-track-bg) var(--progress-percent, 0%) ); }
+            input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; margin-top: -6px; height: 16px; width: 16px; background-color: var(--slider-thumb-bg); border-radius: 50%; border: none; box-shadow: 0 1px 2px rgba(0,0,0,0.2); transition: all var(--transition-speed) var(--transition-func); }
+            input[type="range"]::-moz-range-thumb { height: 16px; width: 16px; background-color: var(--slider-thumb-bg); border-radius: 50%; border: none; box-shadow: 0 1px 2px rgba(0,0,0,0.2); transition: all var(--transition-speed) var(--transition-func); }
+            input[type="range"]:hover::-webkit-slider-thumb { background-color: var(--slider-thumb-hover-bg); transform: scale(1.15); }
+            input[type="range"]:hover::-moz-range-thumb { background-color: var(--slider-thumb-hover-bg); transform: scale(1.15); }
+            input[type="range"]:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px rgba(63, 81, 181, 0.3); transform: scale(1.15); background-color: var(--slider-thumb-hover-bg); }
+            input[type="range"]:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 3px rgba(63, 81, 181, 0.3); transform: scale(1.15); background-color: var(--slider-thumb-hover-bg); }
+            input[type="range"]:active::-webkit-slider-thumb { transform: scale(1.2); background-color: var(--slider-thumb-hover-bg); }
+            input[type="range"]:active::-moz-range-thumb { transform: scale(1.2); background-color: var(--slider-thumb-hover-bg); }
+            #${VOLUME_SLIDER_ID}::-webkit-slider-runnable-track { height: 3px; }
+            #${VOLUME_SLIDER_ID}::-moz-range-track { height: 3px; }
+            #${VOLUME_SLIDER_ID}::-webkit-slider-thumb { margin-top: -5.5px; height: 14px; width: 14px; }
+            #${VOLUME_SLIDER_ID}::-moz-range-thumb { height: 14px; width: 14px; }
+			#${YOUTUBE_PLAYER_DIV_ID} { position: absolute !important; top: 0 !important; left: 0 !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important; }
+            
+            #${QUEUE_CONTAINER_ID} { 
+                margin-top: var(--spacing-md); 
+                padding-top: var(--spacing-sm); 
+                border-top: 1px solid var(--border-color);
+                overflow: hidden;
+                transition: max-height 0.3s ease-in-out;
+            }
+            #${QUEUE_CONTAINER_ID}:not(.queue-collapsed) {
+                max-height: 150px;
+            }
+             #${QUEUE_CONTAINER_ID}:not(.queue-collapsed) #${QUEUE_LIST_ID} {
+                 overflow-y: auto;
+                 max-height: calc(150px - 2em - var(--spacing-sm));
+             }
+            #${QUEUE_TITLE_ID} { 
+                font-size: var(--artist-font-size); 
+                color: var(--text-secondary); 
+                margin: 0 0 var(--spacing-sm) 0; 
+                font-weight: 500;
+                cursor: pointer;
+                user-select: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #${QUEUE_TOGGLE_ICON_ID} {
+                font-size: 0.9em;
+                margin-left: var(--spacing-xs);
+                transition: transform 0.2s ease-in-out;
+                display: inline-block;
+            }
+            #${QUEUE_LIST_ID} { list-style: none; margin: 0; padding: 0; }
+            .${PLAYER_QUEUE_ITEM_CLASS} { 
+                padding: var(--spacing-xs) var(--spacing-sm); 
+                font-size: 13px; 
+                border-radius: var(--border-radius); 
+                cursor: pointer; 
+                transition: background-color var(--transition-speed) var(--transition-func);
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .${PLAYER_QUEUE_ITEM_CLASS}:hover { background-color: var(--queue-item-hover-bg); }
+            .player-queue-item-title { font-weight: 500; color: var(--text-primary); }
+            .player-queue-item-artist { color: var(--text-secondary); font-size: 12px; }
+            .player-queue-empty { color: var(--text-secondary); font-style: italic; cursor: default; padding: var(--spacing-xs) var(--spacing-sm); }
+            #${QUEUE_CONTAINER_ID}.queue-collapsed {
+                max-height: calc(var(--artist-font-size) + var(--spacing-sm) + 2px);
+            }
+            #${QUEUE_CONTAINER_ID}.queue-collapsed #${QUEUE_LIST_ID} {
+                display: none;
+            }
+            #${QUEUE_CONTAINER_ID}.queue-collapsed #${QUEUE_TOGGLE_ICON_ID} {
+                transform: rotate(-90deg);
+            }
+            @media (max-width: 600px) { 
+                :root { 
+                    --cover-art-size: 100%;
+                    --button-size: 32px; 
+                    --title-font-size: 15px; 
+                    --artist-font-size: 13px; 
+                } 
+                #${PLAYER_ELEMENT_ID} { padding: var(--spacing-sm); margin-top: clamp(30rem, 50vw, 50rem); margin-inline: auto }
+                #${PLAYER_MAIN_CONTENT_WRAPPER_ID} { flex-direction: column; gap: var(--spacing-md); }
+                #${DISPLAY_BOX_ID} { width: 100%; } 
+                #${COVER_ID} { max-width: 250px; margin: 0 auto; display: block; }
+                #${PLAYER_RIGHT_PANEL_ID} { width: 100%; }
+                #${INFO_CONTAINER_ID} { text-align: center; }
+                .${TITLE_LINE_WRAPPER_CLASS} { justify-content: center; }
+                #${ARTIST_ID} { text-align: center; }
+                #${CONTROLS_ID} { justify-content: center; } 
+                #${CONTROLS_CONTAINER_ID} { flex-direction: column; gap: var(--spacing-sm); }
+                #${VOLUME_CONTAINER_ID} { justify-content: center; } 
+                #${VOLUME_PERCENTAGE_ID} { display: none; } 
+                #${VOLUME_SLIDER_ID} { width: 120px; } 
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    async function initializeMusicPlayer() {
+        console.log("Setting up music player...");
+        try {
+            PLAYLISTS_DATA = [
+                { name: "The Johnsonophone", songs: SONGS_DATA }
+            ];
+
+            if (!PLAYLISTS_DATA || PLAYLISTS_DATA.length === 0 || PLAYLISTS_DATA[0].songs.length === 0) {
+                console.warn("No default playlist or songs defined. Music player will be empty.");
+                playlist = new Playlist([]);
+                originalSongOrderForCurrentPlaylist = [];
+            } else {
+                activePlaylistIndex = 0;
+                const initialPlaylistSongsData = PLAYLISTS_DATA[activePlaylistIndex].songs;
+                const initialSongs = initialPlaylistSongsData.map(d => new Song(d.title, d.artist, d.coverLink, d.videoIds || d.videoId));
+                originalSongOrderForCurrentPlaylist = [...initialSongs];
+                playlist = new Playlist(initialSongs);
+            }
+
+            const playerFragment = createPlayerElements(); 
+
+            if (playlistSelectorElement && PLAYLISTS_DATA && PLAYLISTS_DATA.length > 0) {
+                PLAYLISTS_DATA.forEach((pl, index) => {
+                    const option = document.createElement("option");
+                    option.value = index.toString();
+                    option.textContent = pl.name;
+                    playlistSelectorElement.appendChild(option);
+                });
+                playlistSelectorElement.value = activePlaylistIndex.toString();
+            }
+
+            const anchorElement = document.getElementById("game_window");
+            const targetContainer = (anchorElement && anchorElement.parentNode) ? anchorElement.parentNode : document.body;
+            const insertBeforeElement = (anchorElement && anchorElement.parentNode) ? anchorElement.nextSibling : null;
+            targetContainer.insertBefore(playerFragment, insertBeforeElement);
+
+            injectPlayerStyles();
+            bindUIEventListeners();
+            updateUI();
+
+            await loadYouTubeAPI();
+
+            const playerDiv = document.getElementById(YOUTUBE_PLAYER_DIV_ID);
+            if (!playerDiv) throw new Error(`Cannot initialize player: Element '${YOUTUBE_PLAYER_DIV_ID}' not found.`);
+
+            ytPlayer = new YT.Player(YOUTUBE_PLAYER_DIV_ID, {
+                height: '1', width: '1',
+                playerVars: { 'playsinline': 1, 'autoplay': 0, 'controls': 0, 'disablekb': 1, 'modestbranding': 1, 'origin': window.location.origin },
+                events: { 'onReady': onPlayerReady, 'onStateChange': onPlayerStateChange, 'onError': onPlayerError }
+            });
+
+        } catch (error) {
+            console.error("Failed during music player initialization:", error);
+            if (titleElement) titleElement.textContent = "Error";
+            if (artistElement) artistElement.textContent = "Could not load player.";
+        }
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeMusicPlayer);
+    } else {
+        initializeMusicPlayer();
+    }
+
+})();
+
+
+//#endcode
